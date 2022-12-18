@@ -9,14 +9,24 @@ html, body{
   height: 100%;
 }
 body{
-  background-color: #9eb4c6;
+  background: radial-gradient(circle, rgb(63, 149, 115) 0%, rgb(1, 27, 57) 72%);
   margin: 8px;
+  color: #ffff;
 }
 .container-fluid { 
   height: 97.5%;
+  z-index: 900;
 }
 .navbar-dark .navbar-toggler{
   border: none;
   padding: 0;
   border-color: transparent;
 } 
+.row__header{
+  margin-top: 10rem;
+}
+@media only screen and (min-width: 768px) {
+  .row__header{
+    text-align: center;
+  }
+}
