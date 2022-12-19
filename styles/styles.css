@@ -24,9 +24,13 @@ body{
 } 
 .row__header{
   margin-top: 10rem;
+  display: block;
 }
 @media only screen and (min-width: 768px) {
   .row__header{
     text-align: center;
+  }
+  h1{
+    font-size: 4rem;
   }
 }
