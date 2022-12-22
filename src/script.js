@@ -1,4 +1,4 @@
-let content = document.querySelector(".row__header");
+let content = document.querySelector(".content");
 function toggleContent(){
   console.log('dlkfjgdflsgjdfgkds');
   if(content.style.display===""){

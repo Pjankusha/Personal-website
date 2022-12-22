@@ -1,21 +1,21 @@
+:root{
+  
+}
 *{
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto', monospace;
   font-size: 16px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
-html, body{
-  margin: 0px;
-  height: 100%;
-}
+
+html{ margin: 0;}
 body{
-  background: radial-gradient(circle, rgb(63, 149, 115) 0%, rgb(1, 27, 57) 72%);
+  background: rgb(99, 103, 101) 0%;
   margin: 8px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
-.container-fluid { 
-  height: 97.5%;
-  z-index: 900;
+.wrapper{
+  min-height: 97.5vh;
+  background: rgb(121, 144, 132) 0%;
 }
 .navbar-dark .navbar-toggler{
   border: none;
@@ -26,11 +26,82 @@ body{
   margin-top: 10rem;
   display: block;
 }
+
+.content-text{
+  font-size: 14px;
+}
+.personal-photo{
+  height: 20rem;
+}
+.project-button {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#366975;
+	border-radius:5px;
+	border:1px solid #366975;
+	display:inline-block;
+	cursor:pointer;
+	color:#d0e2dd;;
+	font-family:Arial;
+	font-size:0.875rem;
+	font-weight:bold;
+	padding:0.19rem 0.25rem;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+  text-align: center;
+}
+.project-button:hover {
+	background-color:#2f5b64;
+  color: #ffffff;
+}
+.project-button:active {
+	position:relative;
+	top:1px;
+}
+.second-page__header{
+  text-align: center;
+  margin-top: 1rem;
+}
 @media only screen and (min-width: 768px) {
   .row__header{
     text-align: center;
   }
   h1{
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+  .personal-photo{
+    height: 600px;
+    width: 400px;
+  }
+  .content__bio{
+    margin: 4rem 2rem;
+  }
+  .content-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  .header-content{
+    font-size: 1.3rem;
+  }
+  .navbar-brand{
+    font-size: 1.7rem;
+  }
+  .nav-link{
+    font-size:1.3rem;
+  }
+  .project-button{
+    padding: 0.690rem 3.94rem;
+    font-size: 1.25rem;
+  }
+  .second-page__header{
+    font-size: 3rem;
+    text-align: start;
+  }
+  .logo-cat{
+    width: 60px;
+  }
+  .logo-gus{
+    width: 54px;
   }
 }
+
+
