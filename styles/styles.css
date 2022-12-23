@@ -31,25 +31,29 @@ body{
 .personal-photo{
   height: 20rem;
 }
+.nav-link{
+  font-size: 1.5rem;
+}
 .project-button {
-	box-shadow:inset 0px 1px 3px 0px #91b8b3;
-	background-color:#366975;
-	border-radius:5px;
-	border:1px solid #366975;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#d0e2dd;;
+	color:#777777;
 	font-family:Arial;
-	font-size:0.875rem;
+	font-size:15px;
 	font-weight:bold;
-	padding:0.19rem 0.25rem;
+	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #2b665e;
-  text-align: center;
+	text-shadow:0px 1px 0px #ffffff;
 }
+
 .project-button:hover {
 	background-color:#2f5b64;
-  color: #ffffff;
+  color:#676565;
 }
 .project-button:active {
 	position:relative;
