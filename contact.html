@@ -17,7 +17,7 @@
   <title>contact page</title>
 </head>
 <body>
-  <div class="container d-flex flex-column justify-content-between wrapper rounded border">
+  <div class="container d-flex flex-column  wrapper rounded border">
     <nav class="navbar navbar-expand-sm navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -47,25 +47,26 @@
         </div>
       </div>
     </nav>
-      <div class="row row__header p-3 content">
-        <div class="col-6">
-          <h1> Let's get in touch </h1>
-          <h3>Email</h3>
-          <a href="mailto:marijapiankova@gmail.com">marijapiankova@gmail.com</a>
-        </div>
-        <div class="col-6">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
+      <div class="row text-center p-3 content">
+          <h2> Let's get in touch </h2>
+          <div class="col-md-6">
+            <form id="contact" method="post" class="form" role="form">
+                <div class="col mb-3 form-group">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Write your name" required />
+                </div>
+                <div class="col mb-3 form-group">
+                  <input type="text" class="form-control" id="email"  name="email" placeholder="Write your email"required >
+                </div>
+                <textarea class="form-control mb-3" name="message" id="message" placeholder="Write your message" rows="5"></textarea>
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <button class="btn btn-secondary" type="submit">Send message</button>
+                  </div>
+                </div>
+            </form>
+          </div>
+          
+       
       </div>
 
     <footer class="d-flex justify-content-center">
