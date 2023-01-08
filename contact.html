@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>main page</title>
+  <title>contact page</title>
 </head>
 <body>
   <div class="container d-flex flex-column justify-content-between wrapper rounded border">
@@ -48,11 +48,23 @@
       </div>
     </nav>
       <div class="row row__header p-3 content">
-        <div class="col-12 header-content">>Hi, all. I am <span><h1>Mariia</h1></span> an aspiring front-end developer</div>
-        <div class="col-12 header-content"><br> >based in Ukraine🇺🇦</div> 
-        <div class="row p-3 content">
-          <div class="col-md-6 mt-3"><a href="projects.html" class="project-button">Go to my projects</a></div>
-          <div class="col-md-6 mt-3"><a href="bio.html" class="project-button">Check my bio</a></div>  
+        <div class="col-6">
+          <h1> Let's get in touch </h1>
+          <h3>Email</h3>
+          <a href="mailto:marijapiankova@gmail.com">marijapiankova@gmail.com</a>
+        </div>
+        <div class="col-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
 
