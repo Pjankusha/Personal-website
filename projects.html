@@ -12,9 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>project page</title>
+  <meta name="description" content="Here you can find Maria's projects and launch her first app.">
+  <title>Front-end developer - Maria Piankova | Projects</title>
 </head>
 <body>
   <div class="container d-flex flex-column justify-content-between  wrapper rounded border">
@@ -29,13 +28,19 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">_home</a>
+              <a class="nav-link" href="index.html" title="Homepage">_home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="bio.html">_bio</a>
+              <a class="nav-link" href="bio.html" title="About Maria">_bio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">_contact-me</a>
+              <a class="nav-link" href="contact.html" title="Contact Maria">_contact-me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="projects.html" title="Maria's  work" role="button" data-bs-toggle="dropdown">_projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="projects.html" title="Maria's project">Weather-App</a></li>
+              </ul>
             </li>  
           </ul>
         </div>
@@ -50,7 +55,7 @@
         </div>
         <div class="col-md-6 mt-2">
           <p class="content-text text-start">My first application. Weather app for mobile and desktop devices.</p>
-          <a href="https://bespoke-brigadeiros-0cc6a8.netlify.app/" class="project-button mt-3">Launch app</a>     
+          <a href="https://bespoke-brigadeiros-0cc6a8.netlify.app/" alt="Launch Button" class="project-button mt-3">Launch app</a>     
       </div>     
     </main>
     <footer class="text-center d-flex  justify-content-center">
