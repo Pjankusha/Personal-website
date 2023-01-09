@@ -62,7 +62,9 @@ body{
 .social-media__links:hover{
   color: #23454c;
 }
-
+.source-link{
+  color: #23454c;
+}
 @media screen and (max-width:767px) {
   .content-text{
     text-align: center;
@@ -71,7 +73,6 @@ body{
   
 }
 @media  screen and (min-width:768px) and (max-width:1023px) {
-  
   .content-text{
     font-weight: 300;
     font-size: 1.2rem;
@@ -86,6 +87,7 @@ body{
   .form{
     margin: 0 auto;
   }
+  
 }
 @media only screen and (min-width: 1024px){
   .row__header{
